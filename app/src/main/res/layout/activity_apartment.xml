@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- First apartment -->
+    <TextView
+        android:id="@+id/textViewApartmentName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apartment Name 1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewApartmentAddress1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apartment Address 1" />
+
+    <TextView
+        android:id="@+id/textViewApartmentPrice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apartment Price 1" />
+
+    <ImageView
+        android:id="@+id/imageViewApartment1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/new_rental_apartment" />
+
+    <CheckBox
+        android:id="@+id/checkBoxVisit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit Apartment 1" />
+
+    <!-- Second apartment -->
+    <TextView
+        android:id="@+id/textViewApartmentName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apartment Name 2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewApartmentAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apartment Address 2" />
+
+    <TextView
+        android:id="@+id/textViewApartmentPrice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apartment Price 2" />
+
+    <ImageView
+        android:id="@+id/imageViewApartment2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/apartment2" />
+
+    <CheckBox
+        android:id="@+id/checkBoxVisit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit Apartment 2" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/checkoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Check Out"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Back" />
+    </LinearLayout>
+</LinearLayout>

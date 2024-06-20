@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewPaymentDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Details"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Credit/Debit Card Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextFavoriteSport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Favorite Sport"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextFavoriteTeam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Favorite Team"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextFavoriteFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Favorite Food"
+        android:inputType="text" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPaymentMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonCash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cash" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCreditCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit Card" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDebitCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Debit Card" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonSubmitPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Payment"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

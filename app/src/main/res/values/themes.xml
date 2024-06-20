@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.euniceadinlewa_COMP304Lab2_Ex1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/onPrimaryColor</item>
+        <item name="colorOnBackground">@color/onBackgroundColor</item>
+        <item name="android:textColorPrimary">@color/brightTextColor</item>
+    </style>
+
+    <style name="Theme.euniceadinlewa_COMP304Lab2_Ex1" parent="Base.Theme.euniceadinlewa_COMP304Lab2_Ex1" />
+</resources>

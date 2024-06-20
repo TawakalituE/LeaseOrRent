@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a Home Type"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonApartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apartment"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonDetachedHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detached Home"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonSemiDetachedHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semi-Detached Home"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonCondominiumApartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Condominium Apartment"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonTownHouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Town House"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>

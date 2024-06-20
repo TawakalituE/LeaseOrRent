@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- First semi-detached home -->
+    <TextView
+        android:id="@+id/textViewSemiDetachedName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semi-Detached Home Name 1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewSemiDetachedAddress1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semi-Detached Home Address 1" />
+
+    <TextView
+        android:id="@+id/textViewSemiDetachedPrice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semi-Detached Home Price 1" />
+
+    <ImageView
+        android:id="@+id/imageViewSemiDetached1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/semi_detached_home_image" />
+
+    <CheckBox
+        android:id="@+id/checkBoxVisit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit Semi-Detached Home 1" />
+
+    <!-- Second semi-detached home -->
+    <TextView
+        android:id="@+id/textViewSemiDetachedName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semi-Detached Home Name 2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewSemiDetachedAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semi-Detached Home Address 2" />
+
+    <TextView
+        android:id="@+id/textViewSemiDetachedPrice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semi-Detached Home Price 2" />
+
+    <ImageView
+        android:id="@+id/imageViewSemiDetached2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/semidetached2" />
+
+    <CheckBox
+        android:id="@+id/checkBoxVisit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit Semi-Detached Home 2" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/checkoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Check Out"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Back" />
+    </LinearLayout>
+</LinearLayout>

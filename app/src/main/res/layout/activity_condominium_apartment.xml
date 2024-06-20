@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- First condominium apartment -->
+    <TextView
+        android:id="@+id/textViewCondoName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Condominium Name 1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewCondoAddress1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Condominium Address 1" />
+
+    <TextView
+        android:id="@+id/textViewCondoPrice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Condominium Price 1" />
+
+    <ImageView
+        android:id="@+id/imageViewCondo1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/condominium_apartment_image" />
+
+    <CheckBox
+        android:id="@+id/checkBoxVisit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit Condominium 1" />
+
+    <!-- Second condominium apartment -->
+    <TextView
+        android:id="@+id/textViewCondoName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Condominium Name 2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewCondoAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Condominium Address 2" />
+
+    <TextView
+        android:id="@+id/textViewCondoPrice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Condominium Price 2" />
+
+    <ImageView
+        android:id="@+id/imageViewCondo2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/condo2" />
+
+    <CheckBox
+        android:id="@+id/checkBoxVisit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit Condominium 2" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/checkoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Check Out"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Back" />
+    </LinearLayout>
+</LinearLayout>
